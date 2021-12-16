@@ -8,8 +8,7 @@ from pressure_to_arduino_v2 import Controller
 from time import sleep,time
 import csv
 from cam2world import ML3,world2cam,Mtip,pix_to_omni,Mtip2
-from auto_marker_detecter_aruco import DetectMarker
-from auto_marker_detecter import DetectMarker as DetectMarkerSphere
+
 from visual_servoing_model_free_projection_v2 import VisualServoingFree
 from estimate_global_desired_position import EstimateDesiredGlobal
 from actuation_lower_dim_map import Actuator
