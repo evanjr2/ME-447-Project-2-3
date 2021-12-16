@@ -5,7 +5,6 @@ import numpy as np
 import cv2
 import pyrealsense2 as rs
 from pressure_to_arduino_v2 import Controller
-from magnetic_sensor_reader import MagSens
 from time import sleep,time
 import csv
 from cam2world import ML3,world2cam,Mtip,pix_to_omni,Mtip2
