@@ -70,7 +70,7 @@ num_readings = 50
 num_markers = 5
 # mag = MagSens("COM4",num_readings)    #MAAAG
 
-Ard = Controller("COM3",250000)         # Initialize Controller                ### ARD
+Ard = Controller("COM5",250000)         # Initialize Controller                ### ARD
 
 Pb = 650
 Pr = 0
