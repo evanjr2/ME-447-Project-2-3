@@ -8,10 +8,8 @@ from pressure_to_arduino_v2 import Controller
 from time import sleep,time
 import csv
 from cam2world import ML3,world2cam,Mtip,pix_to_omni,Mtip2
-
 from visual_servoing_model_free_projection_v2 import VisualServoingFree
 from estimate_global_desired_position import EstimateDesiredGlobal
-from actuation_lower_dim_map import Actuator
 from visual_servoing_desired_trajectory import CircleTrajectory
 from loging_visual_servoing_experiments_v2 import LogData
 from varname import nameof
